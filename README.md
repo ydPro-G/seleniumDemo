@@ -1,2 +1,2 @@
 # seleniumDemo
- 通过例子来学习selenium
+通过一系列的示例来学习如何使用selenium
