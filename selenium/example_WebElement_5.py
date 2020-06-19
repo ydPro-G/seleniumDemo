@@ -4,11 +4,12 @@
 from selenium import webdriver
 
 we = webdriver.Chrome()
-we.get('http://cdn1.python3.vip/files/selenium/sample1.html')
 
-element = we.find_element_by_id('container')
+we.get('https://www.zaobao.com/realtime')
 
-spans = element.find_elements_by_tag_name('span')  # span：范围
+element = we.find_element_by_class_name('bananas')
+# 限制 选择元素的范围是class为bananas元素的内部
+spans = element.find_elements_by_tag_name('span')
 
 for span in spans:
     print(span.text)
