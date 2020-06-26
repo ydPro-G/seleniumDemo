@@ -88,7 +88,7 @@ print(ht.get_attribute('outerHTML'))
 
 
   # 如果一个元素具有       多个属性
-  # 需要具有多个属性限制div[class=misc][ctype=gun]
+  # 需要具有多个属性限制div[class=misc][type=gun]
 
 
 
