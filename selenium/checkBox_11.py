@@ -12,7 +12,7 @@ from selenium.webdriver.support.ui import Select
 wd = webdriver.Chrome()
 
 
-wd.get('http://cdn1.python3.vip/files/selenium/test2.html')\
+wd.get('http://cdn1.python3.vip/files/selenium/test2.html')
 
 
 # 获取当前选中的元素
