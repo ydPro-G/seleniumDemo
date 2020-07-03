@@ -71,7 +71,7 @@ hand.get('http://cdn1.python3.vip/files/selenium/sample3.html')
 mainWindow = hand.current_window_handle # 用一个变量保存当前窗口的句柄
 
 lina = hand.find_element_by_tag_name("a").click()
-for handle in hand.window_handles: # window_handles属性获取当前所有网页窗口句柄，然后以列表的形式存储
+for handle in hand.window_handles: # window_handles属性获取当前所有网页窗口句柄，然后以列表的形式存储到变量handle中
     hand.switch_to.window(handle)
     if '必应' in hand.title: # 根据标题栏或地址栏
         break # 跳出循环，然后在新窗口操作

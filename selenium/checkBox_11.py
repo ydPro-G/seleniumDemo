@@ -94,5 +94,5 @@ se = Select(wd.find_element_by_id('ss_multi'))
 se.deselect_all()
 
 # 选择小雷老师和小凯老师
-se.select_by_visible_text('小雷老师')
+se.select_by_visible_text('小雷老师') # 直接点击
 se.select_by_visible_text('小凯老师')

@@ -19,7 +19,7 @@ for a in elements:
 
 # 组选择
   # ,号
-  # 同时选择多个元素，（.class,div,#id）
+  # 组选择，（.class,div,#id）
 ele = wd.find_elements_by_css_selector('div,#BYHY') # 同时选择tag名为div 的元素和id 为BYHY的元素
 for e in ele:
     print(e.text)
