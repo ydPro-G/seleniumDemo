@@ -6,7 +6,6 @@ import urllib
  
 import requests
 
-
 def getPage(keyword,page,n):
     page=page*n
     keyword=urllib.parse.quote(keyword, safe='/')
